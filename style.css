@@ -1,0 +1,106 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.background{
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    background-image: url("wp4247401.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 120%;
+    height: 120%;
+
+}
+.container{
+    width: 30%;
+    height: 70%;
+    margin: auto;
+    color: aliceblue;
+    position: relative;
+    top: 10%;
+    
+   
+}
+h1{
+    font-size: 300%;
+}
+.containerLowBrightness{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(32, 32, 32, 0.5); 
+    z-index: 1.5; 
+    text-align: center;
+
+}
+.input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 50%;
+    transition: 0.2s;
+    color: white;
+
+}
+.input::placeholder{
+    color: rgb(205, 192, 211);
+    transition: 0.5s;
+}
+.input:focus{
+    border-bottom: 1.5px solid rgb(127, 188, 216);
+    caret-color: aliceblue;
+    transform: scale(1.2);
+    transition: 0.2s;
+
+}
+
+.legend{
+    margin-left: -45%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.inputGroup{
+    margin-top: 10%;
+}
+.legend1{
+    margin-left: -13%;
+
+}
+.socials{
+    width: 8%;
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-left: 1%;
+}
+.socials:hover{
+    scale: 1.1;
+    transition: scale 0.1s ease;
+}
+.btn{
+    height: 10%;
+    width: 12%;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: grey;
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+.parag{
+    color: rgb(173, 173, 173);
+}
+a{
+    text-decoration: none;
+
+}
